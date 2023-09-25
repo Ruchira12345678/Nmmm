@@ -28,8 +28,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
   }
 };
 
-handler.command = ['bro', 'chatgpt', 'ai', 'siri'];
-handler.diamond = false;
+handler.command = ['bro', 'chatgpt', 'ai', 'gpt'];
+
 
 export default handler;
-
